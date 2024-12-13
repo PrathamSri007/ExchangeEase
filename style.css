@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 900;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    font-size: 40px;
+    background-color: rgb(46, 21, 119);
+    padding: 25px;
+}
+
+#heading{
+    font-weight: bold;
+    text-align: center;
+    color:aliceblue;
+}
+
+.header li{
+    font-size: 15px;
+    display: inline-block;
+    color: rgb(255, 255, 255);
+}
+
+.header li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: all;
+    transition-duration: 500ms;
+}
+
+.header li a:hover {
+    text-decoration: underline;
+    color: rgb(173, 255, 255);
+}
+
+body {
+    background-color: aliceblue;
+}
+
+.container h1{
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+    font-size: 30px;
+    font-family: Georgia;
+}
+
+.container p{
+    text-align: justify;
+    text-align-last: center;
+    padding-bottom: 40px;
+    padding-left: 150px;
+    padding-right: 150px;
+    font-family: Georgia;
+    font-size: 20px;
+}
+
+label{
+    font-family: Georgia;
+    font-size: 20px;
+    font-weight: 540;
+}
+
+.currency {
+    display: flex;
+    justify-content: center;
+}
+
+#fromcurr{
+    padding-right: 10px;
+}
+
+#tocurr{
+    padding-left: 150px;
+    padding-right: 10px;
+}
+
+#curr1{
+    padding-right: 150px;    
+}
+
+#curr2 {
+    padding-right: 150px;
+} 
+
+select {
+    padding: 5px; 
+    width: 200px; 
+    font-size: 16px; 
+    text-align: center;
+}
+
+.amt {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.amt label, .amt input {
+    margin: 10px 0;
+}
+
+input[type="number"] {
+    padding: 5px;
+    width: 200px;
+    font-size: 16px;
+    text-align: center;
+}
+
+button{
+    width: 144px;
+    padding: 5px 8px;
+    font-size: 20px;
+    background: #e0d0f5;
+    color: black;
+    border-radius: 13px;
+    cursor: pointer;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+}
+
+#output{
+    display: none;
+    background-color: aliceblue;
+    padding-top: 20px;
+}
+
+.footer {
+    position: fixed; 
+    bottom: 0; 
+    width: 100%; 
+    text-align: center; 
+    padding: 5px; 
+    background-color: rgb(46, 21, 119); 
+    font-size: 15px; 
+    color: #fff; 
+}
+
+h3 {
+    font-size: 30px;
+    text-align: center;
+}
+
+#displayPaths{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#paths-displayed{
+    display:list-item;
+    margin: 5px;
+}

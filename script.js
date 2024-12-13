@@ -48,7 +48,7 @@ async function convertCurrency() {
                 return `
                     <li id="paths-displayed">
                         <strong>${path.path}:</strong> 
-                        Indirect Conversion: ${path.indirect}
+                        ${path.indirect} ${toCurrency}
                     </li>
                 `;
             }).join('');

@@ -64,7 +64,7 @@ async function convertCurrency() {
         return;
     }
 
-    const apiKey = 'd2839356a10f22b605a9de2a'; 
+    const apiKey = '6dcd125a62914703f727418c'; 
     const url = `https://v6.exchangerate-api.com/v6/${apiKey}/latest/${fromCurrency}`;
 
     try {

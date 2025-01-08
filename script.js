@@ -68,7 +68,7 @@ async function convertCurrency() {
         return;
     }
 
-    const apiKey = '6dcd125a62914703f727418c';//replace this key with YOUR_API_KEY of ExchangeRate-API
+    const apiKey = 'd85f26ac2223a11406f2b178';//replace this key with YOUR_API_KEY of ExchangeRate-API
     const url = `https://v6.exchangerate-api.com/v6/${apiKey}/latest/${fromCurrency}`;
 
     try {
